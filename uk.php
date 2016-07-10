@@ -15,24 +15,24 @@ function e2l_load_strings () {
   // installer
   'pt--install' => 'Встановлення Егеї',
   'gs--user-fixes-needed' => 'Хвилинку, треба дещо виправити.',
-  'gs--following-folders-missing' => 'Не знайдено наступні папки із дистрибутиву рушія:',
-  'gs--could-not-create-them-automatically' => 'Створити їх автоматично не вдалося через недостатні права. Завантажте на сервер повний дистрибутив.',
+  'gs--following-folders-missing' => 'Не знайдено наступні теки з дистрибутиву рушія:',
+  'gs--could-not-create-them-automatically' => 'Створити їх автоматично не вдалося через нестачу прав. Завантажте на сервер повний дистрибутив.',
   'gs--and-reload-installer' => 'І перезавантажте встановлювач',
   'fb--begin' => 'Розпочати блог',
   'fb--retry' => 'Спробувати ще раз',
-  'gs--db-parameters' => 'Параметры бази даних, які надав хостер',
+  'gs--db-parameters' => 'Параметри бази даних, які надав хостер',
   'gs--ask-hoster-how-to-create-db' => 'Уточніть у хостера, як створити базу, якщо її немає',
   'er--double-check-db-params' => 'Перевірте ще раз реквізити бази',
   'gs--instantiated-version' => 'Інтсанційована версія',
   'pt--installer-loading' => 'Завантаження...',
   'gs--database' => 'База даних',
-  'gs--password-for-blog' => 'Пароль доступу до блогу',
+  'gs--password-for-blog' => 'Пароль для доступу у блог',
   'gs--data-exists' => 'В цій базі вже є блог. Встановлювач просто підключиться до неї.',
   'er--db-data-incomplete' => 'В цій базі вже є частина даних блогу, та вони неповні. Можливо, з нею використовувалась інша версія Егеї. Встановіть Егею тієї версії, від якої дані у базі, а потім оновіть, якщо потрібно. Для чистого встановлення надайте чисту базу.',
 
   // diags
   'et--fix-permissions-on-server' => 'Налаштуйте права на сервері',
-  'gs--enable-write-permissions-for-the-following' => 'Будь-ласка, дайте права на запис тут:',
+  'gs--enable-write-permissions-for-the-following' => 'Будь-ласка, надайте права на запис тут:',
   
   // sign in
   'pt--sign-in' => 'Вхід',
@@ -44,7 +44,7 @@ function e2l_load_strings () {
   'pt--nth-day-of-nth-month-of-nth-year' => '$[day] $[month.monthname.genitive] $[year]-го',
   'gs--nth-month-of-nth-year' => '$[month.monthname] $[year]',
   'gs--nth-day-of-nth-month-of-nth-year' => '$[day] $[month.monthname.genitive] $[year]',
-  'gs--everything' => 'Все',
+  'gs--everything' => 'Усе',
   'gs--part-x-of-y' => 'частина $[part] з $[of]',
   
   // posts
@@ -53,9 +53,9 @@ function e2l_load_strings () {
   'bt--open-comments-to-post' => 'Відкрити коментарі до допису',
   'pt--new-post' => 'Новий допис',
   'pt--edit-post' => 'Редагування допису',
-  'er--post-must-have-title-and-text' => 'У допису має бути назва і текст',
+  'er--post-must-have-title-and-text' => 'У допису мають бути назва і текст',
   'er--error-updating-post' => 'Помилка під час змінення допису',
-  'er--error-deleting-post-tag-info' => 'Помилка при видаленні відомостей про теги допису',
+  'er--error-deleting-post-tag-info' => 'Помилка під час видалення даних про теги допису',
   'er--wrong-datetime-format' => 'Неправильний формат дати-часу. Має бути: «ДД.ММ.РРРР ГГ:ХХ:СС»',
   'er--cannot-get-post-from-db' => 'Не вдалося вилучити допис із бази',
   'er--images-only-supported' => 'Підтримуються лише зображення',
@@ -71,7 +71,7 @@ function e2l_load_strings () {
   'ff--change-time' => 'Змінити час',
   'ff--delete' => 'Видалити',
   'ff--will-get-address' => 'Отримає адресу',
-  'ff--is-at-address' => 'Опублікована за адресою',
+  'ff--is-at-address' => 'Опублікований за адресою',
   'gs--no-notes' => 'Дописів немає.',
 
   'ff--gmt-offset' => 'Різниця з Грінвічем',
@@ -79,10 +79,10 @@ function e2l_load_strings () {
   'ff--post-time' => 'Час публікації',
   
   'pt--post-deletion' => 'Видалення допису',
-  'gs--post-will-be-deleted' => 'Допис «$[post]» буде видалений разом зі всіма коментарями.',
+  'gs--post-will-be-deleted' => 'Допис «$[post]» буде видалений разом з усіма коментарями.',
 
   // frontpage 
-  'er--cannot-show-latest-notes' => 'Неможливо відобразити останні дописи',
+  'er--cannot-show-latest-notes' => 'Неможливо показати останні дописи',
   'nm--posts' => 'Дописи',
   'gs--next-posts' => 'наступні',
   'gs--prev-posts' => 'попередні',
@@ -98,35 +98,35 @@ function e2l_load_strings () {
   
   // comments
   'pt--new-comment' => 'Новий коментар',
-  'pt--edit-comment' => 'Редагування коментаря',
+  'pt--edit-comment' => 'Редагування коментарю',
   'pt--reply-to-comment' => 'Відповідь на коментар',
   'pt--edit-reply-to-comment' => 'Редагування відповіді на коментар',
   'pt--unsubscription-done' => 'Вдалося!',
   'pt--unsubscription-failed' => 'Не вдалося',
-  'gs--you-are-not-subscribed' => 'Схоже, що ви й так не підписані на коментарі до цього допису',
+  'gs--you-are-not-subscribed' => 'Схоже, що ви і так не підписані на коментарі до цього допису',
   'gs--you-are-no-longer-subscribed' => 'Ви більше не підписані на коментарі до допису',
   'gs--unsubscription-didnt-work' => 'Чогось відписка не спрацювала',          
   'gs--comment-not-found' => 'Коментар не знайдено',
   'gs--post-not-found' => 'Допис не знайдено',
   'gs--comment-too-long' => 'Надто довгий коментар',
-  'gs--comment-too-long-description' => 'Ви надіслали надто довгий коментар, тому його не збережено.',
+  'gs--comment-too-long-description' => 'Ви надіслали надто довгий коментар, тому він не зберігся.',
   'gs--comment-double-post' => 'Повторний коментар',
   'gs--comment-double-post-description' => 'Ви надіслали коментар двічі, збережено лише один.',
   'gs--comment-spam-suspect' => 'Коментар схожий на спам',
-  'gs--comment-spam-suspect-description' => 'Шкода, та робот вирішив, що це спам, тому коментар не було надіслано.',
+  'gs--comment-spam-suspect-description' => 'Шкода, та робот вирішив, що це спам, тому коментар не надіслався.',
   'gs--you-are-already-subscribed' => 'Ви підписані на коментарі. Посилання для відписки надходить з кожним листом з новим коментарем.',
   'er--post-not-commentable' => 'Цей допис неможна коментувати',
-  'er--name-email-text-required' => 'Й імʼя, й ел. адреса, і текст коментаря мають бути обовʼязково',
-  'ff--notify-subscribers' => 'Відправити поштою коментаторові й іншим підписникам',
+  'er--name-email-text-required' => 'Імʼя, ел. адреса та текст коментарю обовʼязкові',
+  'ff--notify-subscribers' => 'Надіслати поштою коментаторові та іншим підписникам',
   'gs--your-comment' => 'Ваш коментар',
   'ff--full-name' => 'Імʼя та прізвище',
   'ff--email' => 'Ел. пошта',
   'gs--email-wont-be-published' => 'адресу не буде опубліковано',
   'gs--no-html' => 'ХТМЛ не працює',
   'ff--subscribe-to-others-comments' => 'Отримувати поштою інші коментарі',
-  'ff--text-of-your-comment' => 'Текст вашого коментаря',
+  'ff--text-of-your-comment' => 'Текст вашого коментарю',
   'gs--n-comments' => '$[number.cardinal]',
-  'gs--no-comments' => 'жодного коментаря',
+  'gs--no-comments' => 'жодного коментарю',
   'gs--comments-all-one-new' => 'новий',
   'gs--comments-all-new' => 'нові',
   'gs--comments-n-new' => '$[number.cardinal]',
@@ -140,12 +140,12 @@ function e2l_load_strings () {
   'pt--tag-delete' => 'Видалення тега',
   'pt--posts-without-tags' => 'Дописи без тегів',
   'gs--no-posts-without-tags' => 'Дописів без тегів немає.',
-  'er--bad-tag-urlname' => 'Вибрану адресу використати неможливо',
-  'er--cannot-rename-tag' => 'Таке імʼя або адреса вже використувуються іншим тегом',
+  'er--bad-tag-urlname' => 'Обрану адресу використати неможливо',
+  'er--cannot-rename-tag' => 'Таке імʼя або адреса вже використовуються іншим тегом',
   'ff--tag-name' => 'Назва',
   'ff--tag-urlname' => 'В адресному рядку',
   'ff--tag-description' => 'Опис',
-  'gs--tag-will-be-deleted-notes-remain' => 'Тег «$[tag]» буде выдалено із дописів, але самі дописи залишаться.',
+  'gs--tag-will-be-deleted-notes-remain' => 'Тег «$[tag]» буде вилучений із дописів, але самі дописи лишаться.',
   'gs--see-also-tag' => 'Див. також тег',
   'gs--tags-important' => 'важливі',
   'gs--tags-all' => 'всі',
@@ -182,7 +182,7 @@ function e2l_load_strings () {
   
   // password, sessions, settings
   'pt--password' => 'Пароль',
-  'pt--password-for-blog' => 'Пароль для доступу до блогу',
+  'pt--password-for-blog' => 'Пароль для доступу у блог',
   'ff--old-password' => 'Старий пароль',
   'ff--new-password' => 'Новий пароль',
   'fb--change' => 'Змінити',
@@ -190,11 +190,11 @@ function e2l_load_strings () {
   'er--could-not-change-password' => 'Не вийшло змінити пароль',
   'er--no-password-entered' => 'Ви не ввели пароль',
   'er--wrong-password' => 'Неправильний пароль',
-  'ff--displayed-as-plain-text' => 'відображається при вводі',
-  'er--settings-not-saved' => 'Налаштування не збережено',
+  'ff--displayed-as-plain-text' => 'видимий під час введення',
+  'er--settings-not-saved' => 'Налаштування не збереглись',
 
   'pt--sessions' => 'Відкриті сесії',
-  'gs--sessions-description' => 'Коли ви заходите під своїм паролем на декількох пристроях або за допомогою декількох браузерів, тут видображається список усіх таких сеансів. Якщо якись з них викликає підозру, завершіть усі сесії окрім поточної, а потім змініть пароль від блогу.',
+  'gs--sessions-description' => 'Коли ви заходите під своїм паролем на декількох пристроях або за допомогою декількох браузерів, тут показується список всіх таких сеансів. Якщо якась із них викликає підозри, завершіть всі сеанси крім поточного, а потім змініть пароль від блогу.',
   'gs--sessions-browser-or-device' => 'Браузер чи пристрій',
   'gs--sessions-when' => 'Коли',
   'gs--sessions-from-where' => 'Звідки',
@@ -214,14 +214,15 @@ function e2l_load_strings () {
   'ff--language' => 'Мова',
   'ff--theme' => 'Оформлення',
   'ff--theme-how-to' => 'Як створити свою тему?',
-  'ff--theme-selector-wants-js' => 'Для выбору теми оформлення, увімкніть у браузері підтримку скриптів (JavaScript).',
+  'ff--theme-selector-wants-js' => 'Щоб обрати тему оформлення, включіть у браузері підтримку скриптів (JavaScript).',
   'ff--posts' => 'Дописи',
+  'ff--items-per-page-before' => 'Показувати по',
   'ff--items-per-page-after' => 'на сторінці',
-  'ff--show-sharing-buttons' => 'Показувати кнопки надсилання в соцмережі',
+  'ff--show-sharing-buttons' => 'Показувати кнопки надсилання у соцмережі',
   'ff--comments' => 'Коментарі',
   'ff--comments-enable' => 'Дозволяти',
-  'ff--only-for-recent-posts' => 'тільки до свіжих записів',
-  'ff--send-to-address' => 'надсилати на пошту за адресою:',
+  'ff--only-for-recent-posts' => 'тільки до свіжих дописів',
+  'ff--send-to-address' => 'надсилати поштою на адресу:',
   'ff--administration' => 'Адміністрування:',
   'gs--password' => 'пароль',
   'gs--db-connection' => 'зʼєднання з базою',
@@ -232,10 +233,10 @@ function e2l_load_strings () {
 
   'pt--database' => 'База даних',
   'ff--db-host' => 'Сервер',
-  'ff--db-username-and-password' => 'Імʼя користувача і пароль',
+  'ff--db-username-and-password' => 'Імʼя користувача <BR>і пароль',
   'ff--db-name' => 'Назва бази',
   'fb--connect-to-this-db' => 'Підключитися з цими параметрами',
-  'er--cannot-save-data' => 'Не вдяється зберегти відомості',
+  'er--cannot-save-data' => 'Не вдається зберегти відомості',
   
   'ff--changing-sidebar' => 'Як змінити цю колонку?',
   
@@ -248,15 +249,15 @@ function e2l_load_strings () {
   'pt--welcome-text-post' => '.',
 
   // need for password
-  'gs--need-password' => 'Зайдіть під своїм паролем',
+  'gs--need-password' => 'Увійдіть під своїм паролем',
   'ff--public-computer' => 'Чужий компʼютер',
-  'gs--need-password-for-action' => 'Щоб $[action], зайдіть під своїм паролем',
+  'gs--need-password-for-action' => 'Щоб $[action], увійдіть під своїм паролем',
   'gs--np-action-write' => 'створити допис',
   'gs--np-action-note-edit' => 'редагувати допис',
   'gs--np-action-comment-edit' => 'редагувати цей коментар',
   'gs--np-action-comment-reply' => 'відповісти на цей коментар',
-  'gs--np-action-drafts' => 'відкрити чорновики',
-  'gs--np-action-draft' => 'відкрити цей чорновик',
+  'gs--np-action-drafts' => 'відкрити чернетки',
+  'gs--np-action-draft' => 'відкрити цю чернетку',
   'gs--np-action-tag-edit' => 'редагувати цей тег',
   'gs--np-action-settings' => 'налаштовувати блог',
   'gs--np-action-password' => 'змінювати пароль',
@@ -270,7 +271,7 @@ function e2l_load_strings () {
   'fb--save-and-preview' => 'Зберегти та переглянути',
   'fb--publish' => 'Опублікувати',
   'fb--publish-draft' => 'Опублікувати допис',
-  'fb--select' => 'Вибрати',
+  'fb--select' => 'Обрати',
   'fb--apply' => 'Застосувати',
   'fb--delete' => 'Видалити',
   'fb--sign-in' => 'Увійти',
@@ -279,10 +280,10 @@ function e2l_load_strings () {
   // time
   'pt--default-timezone' => 'Стандартний часовий пояс',
   'gs--e2-stores-each-posts-timezone' => 'Е2 зберігає часовий пояс окремо для кажного допису.',
-  'gs--e2-autodetects-timezone' => 'При публикації часовий пояс зазвичай визначається автоматично. А у випадку невдачі використовується вибраний тут часовий пояс.',
+  'gs--e2-autodetects-timezone' => 'Під час публікації часовий пояс зазвичай визначається автоматично. А у разі невдачі використовується обраний тут часовий пояс.',
 
   'tt--from-the-future' => 'Із майбутнього',
-  'tt--just-published' => 'Тільки но',
+  'tt--just-published' => 'Щойно',
   'tt--one-minute-ago' => 'Хвилину тому',
   'tt--minutes-ago' => '$[minutes.cardinal] тому',
   'tt--one-hour-ago' => 'Годину тому',
@@ -311,7 +312,7 @@ function e2l_load_strings () {
   'em--comment-reply-to-public-subject' => '$[blog-author] відповідає на коментар',
   'em--comment-reply' => '$[note-title] ($[blog-author] відповів)',
   'em--created-automatically' => 'Листа створено автоматчно.',
-  'em--unsubscribe' => 'Відписатися від обговорення',
+  'em--unsubscribe' => 'Відписатися від цього обговорення',
   'em--reply' => 'Відповісти',
   'em--comment-replied-at' => 'Коментар, на який відповів автор',
   
@@ -366,8 +367,8 @@ function e2lstr_monthname ($number, $modifier = '') {
     );
   } elseif ($modifier == 'short') {
     $tmp = array (
-      'груд.', 'січ.', 'лют.', 'берез.', 'квіт.', 'трав.', 'черв.',
-      'лип.', 'серп.', 'вер.', 'жовт.', 'листоп.', 'груд.', 'січ.'
+      'груд', 'січ', 'лют', 'берез', 'квіт', 'трав', 'черв',
+      'лип', 'серп', 'верес', 'жовт', 'листоп', 'груд', 'січ'
     );
   } else {
     $tmp = array (
@@ -393,8 +394,8 @@ function e2lstr_cardinal ($number, $modifier = '', $string_id) {
   $what = $number;
   if ($string_id == 'pt--n-posts') $what = $number .' допи(с,си,сів)';
   if ($string_id == 'tt--minutes-ago') $what = $number .' хвилин(у,и,)';
-  if ($string_id == 'tt--hours-ago') $what = $number .' годин(а,и,)';
-  if ($string_id == 'gs--n-comments') $what = $number .' комента(р,ря,рів)';
+  if ($string_id == 'tt--hours-ago') $what = $number .' годи(на,н,)';
+  if ($string_id == 'gs--n-comments') $what = $number .' комента(р,рі,рів)';
   if ($string_id == 'gs--comments-n-new') $what = $number .' нови(й,х,х)';
 
   return e2_decline_for_number ($what);
